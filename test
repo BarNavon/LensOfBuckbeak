@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תיק עבודות - צילום</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>תיק עבודות צילום</h1>
+        <nav>
+            <a href="#home">דף הבית</a>
+            <a href="#gallery">גלריה</a>
+            <a href="#about">עליי</a>
+            <a href="#contact">צור קשר</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>ברוכים הבאים!</h2>
+            <p>תיק העבודות שלי בצילום. תהנו מהתמונות!</p>
+        </section>
+        <section id="gallery">
+            <h2>גלריה</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="תמונה 1">
+                <img src="photo2.jpg" alt="תמונה 2">
+                <img src="photo3.jpg" alt="תמונה 3">
+                <img src="photo4.jpg" alt="תמונה 4">
+            </div>
+        </section>
+        <section id="about">
+            <h2>עליי</h2>
+            <p>אני צלמת מקצועית המתמחה בצילומי טבע ואירועים. תשוקתי היא ללכוד רגעים מיוחדים ולשתף אותם עם העולם.</p>
+        </section>
+        <section id="contact">
+            <h2>צור קשר</h2>
+            <form>
+                <label for="name">שם:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">אימייל:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">הודעה:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">שלח</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 תיק עבודות צילום</p>
+    </footer>
+</body>
+</html>
